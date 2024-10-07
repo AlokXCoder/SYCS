@@ -33,4 +33,4 @@ int main ()
 	printf("\n\nAverage Turnaround Time : %d",avtat);
 	getch();
 	return 0;
-}sss
+}
