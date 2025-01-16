@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"
+    android:interpolator="@android:anim/bounce_interpolator">
+
+    <!-- Scale Animation (More Bounce and Grow) -->
+    <scale
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:fromXScale="0.4"
+        android:toXScale="1.3"
+        android:fromYScale="0.4"
+        android:toYScale="1.3"
+        android:duration="300"
+        android:startOffset="0" />
+
+    <!-- Rotate Animation (Rotate multiple times) -->
+    <rotate
+        android:fromDegrees="0"
+        android:toDegrees="720"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:duration="500"
+    android:startOffset="50" />
+
+    <!-- Translate Animation (More Complex Movement) -->
+    <translate
+        android:fromXDelta="0%"
+        android:toXDelta="30%"
+        android:fromYDelta="0%"
+        android:toYDelta="-50%"
+        android:duration="400"
+        android:startOffset="100" />
+
+    <translate
+        android:fromXDelta="30%"
+        android:toXDelta="-30%"
+        android:fromYDelta="-50%"
+        android:toYDelta="30%"
+        android:duration="300"
+        android:startOffset="200" />
+
+    <!-- Alpha Animation (More Fade In/Out) -->
+    <alpha
+        android:fromAlpha="0"
+        android:toAlpha="1"
+        android:duration="200"
+        android:startOffset="0" />
+
+    <alpha
+        android:fromAlpha="1"
+        android:toAlpha="0.3"
+        android:duration="300"
+        android:startOffset="400" />
+
+    <alpha
+        android:fromAlpha="0.3"
+        android:toAlpha="1"
+        android:duration="200"
+        android:startOffset="700" />
+
+    <!-- Overshoot effect: Create a slight "bounce" after the animation ends -->
+    <scale
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:fromXScale="1.3"
+        android:toXScale="1.1"
+        android:fromYScale="1.3"
+        android:toYScale="1.1"
+        android:duration="200"
+        android:startOffset="800" />
+
+</set>
+
+    <!--
+    This is a basic bounce animation
+    Can refer this also.   :)
+
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <set xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fillAfter="true"
+        android:interpolator="@android:anim/bounce_interpolator">
+
+        <scale
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:fromXScale="0.5"
+            android:toXScale="1.0"
+            android:fromYScale="0.5"
+            android:toYScale="1.0"
+            android:duration="500"/>
+    </set> -->

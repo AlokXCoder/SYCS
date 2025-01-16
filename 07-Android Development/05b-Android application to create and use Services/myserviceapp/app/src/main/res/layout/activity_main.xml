@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="308dp"
+        android:layout_height="74dp"
+        android:layout_x="76dp"
+        android:layout_y="122dp"
+        android:text="Android Service"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <Button
+        android:id="@+id/btStart"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_x="19dp"
+        android:layout_y="219dp"
+        android:text="START SERVICE"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btStop"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_x="17dp"
+        android:layout_y="306dp"
+        android:text="END SERVICE"
+        android:textSize="24sp" />
+
+</AbsoluteLayout>

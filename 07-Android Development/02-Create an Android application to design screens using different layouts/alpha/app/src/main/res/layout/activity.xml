@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.widget.AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="151dp"
+            android:layout_y="279dp"
+            android:onClick="showtext"
+            android:text="Submit" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="99dp"
+            android:layout_y="17dp"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/gender"
+            android:layout_width="130dp"
+            android:layout_height="34dp"
+            android:layout_x="50dp"
+            android:layout_y="71dp"
+            android:text="Gender"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textViewResponse"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_x="140dp"
+            android:layout_y="339dp"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+        <RadioGroup
+            android:id="@+id/selectgender"
+            android:layout_width="149dp"
+            android:layout_height="66dp"
+            android:layout_x="50dp"
+            android:layout_y="112dp">
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Female" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/lang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="215dp"
+            android:layout_y="77dp"
+            android:text="I like"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="133dp"
+            android:layout_height="32dp"
+            android:layout_x="213dp"
+            android:layout_y="154dp"
+            android:text="Kotlin" />
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="137dp"
+            android:layout_height="34dp"
+            android:layout_x="212dp"
+            android:layout_y="113dp"
+            android:text="Python" />
+
+        <TextView
+            android:id="@+id/language"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_x="143dp"
+            android:layout_y="408dp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:layout_x="171dp"
+            android:layout_y="230dp" />
+
+        <TextView
+            android:id="@+id/course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="66dp"
+            android:layout_y="238dp"
+            android:text=" Your Class"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/myclass"
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:layout_x="142dp"
+            android:layout_y="374dp"
+            android:textStyle="bold" />
+
+    </android.widget.AbsoluteLayout>
+</LinearLayout>
